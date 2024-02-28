@@ -10,4 +10,4 @@ git add .
 git commit -m "Organizando arquivos em ordem alfabética"
 
 # Realiza o push para o repositório remoto
-git push origin master
+git push hub-curso-python main
