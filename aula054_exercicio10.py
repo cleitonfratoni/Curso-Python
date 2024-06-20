@@ -36,15 +36,16 @@ while True:
             rm_indice = int(rm_indice)
             os.system("clear")
             try:
-                lista_compras.pop[rm_indice]
+                lista_compras.pop(rm_indice)
                 print('Item removido com sucesso!')
             except:
                 print('Indice inexistente')
         elif opcao_selcionada == 3:
             os.system("clear")
             for indice, nome in enumerate(lista_compras):
+                print('LISTA DAS SUAS COMPRAS')
                 print(indice,nome)
-            else:
+            if lista_compras == []:
                 print('Não há nada na lista')
                 
         elif opcao_selcionada == 4:
